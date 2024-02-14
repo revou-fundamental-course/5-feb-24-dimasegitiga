@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/5-feb-24-dimasegitiga/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools Konversi Suhu</title>
+</head>
+
+<body>
+    <header class="nav-header">
+        <img src="/5-feb-24-dimasegitiga/assets/d.png" alt="Logo" id="logo-d">
+        <nav id="navigasi">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">Contact Us</a>
+            <a href="#" class="link">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div class="petunjuk">
+            <h1 class="judul-tools">Tools Konversi Suhu</h1>
+            <img id="animasi-suhu" src="/5-feb-24-dimasegitiga/assets/an_temperature.gif" alt="animas-suhu" srcset="">
+            <p>Masukkan suhu derajat <b>Celcius</b> (&deg;C) ke kotak dibawah, lalu klik tombol <b>Konversi</b> <br>
+                untuk mendapatkan
+                hasil konversi dalam bentuk <b>Fahrenheit</b></p>
+        </div>
+        <div class="input-section">
+            <form name="" action="" onsubmit="return false">
+                <label for="" id="label-suhu">Celcius</label><br>
+                <input type="number" min="1" max="10000" name="" class="inputan" id="input-suhu" required><br>
+                <button onclick=hitungSuhu()>CONVERT</button>
+                <button onclick=resetSuhu()>RESET</button>
+                <button onclick=reverseSuhu()>REVERSE</button><br>
+                <label for="fahrenheit" id="label-hasil">Fahrenheit</label><br>
+                <input type="number" name="" class="inputan" id="hasil-suhu" disabled><br>
+                <label for="fahrenheit" id="label-kalkulasi">Cara Kalkulasi</label><br>
+                <input type="text" name="" class="inputan" id="kalkulasi-suhu" disabled><br>
+                <label for="" id="ket-kalkulasi">Celcius ke Fahrenheit</label>
+            </form>
+        </div>
+        <div class="rumus-suhu">
+            <img id="gambar-suhu" src="/5-feb-24-dimasegitiga/assets/Rumus_Suhu.png" alt="Rumus Konversi Suhu">
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">Website by Dimas Zulkarnain &copy;2024</p>
+    </footer>
+    <script src="/5-feb-24-dimasegitiga/js/script.js"></script>
+</body>
+
+</html>
